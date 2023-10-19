@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainGrid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    border: 1px solid black;
+    grid-column: 2 / 3;
+}
+
+.sidebar {
+    border: 1px solid black;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.main-content {
+    border: 1px solid black;
+}
